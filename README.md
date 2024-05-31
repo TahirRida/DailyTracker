@@ -12,7 +12,7 @@ The application follows a serverless architecture pattern:
 ## Screenshots
 
 ### Home Page:
-![Home Page](1 (4).png)
+![Home Page](main.png)
 
 ### Adding a Task:
 ![Adding a Task](2 (4).png)
