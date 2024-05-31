@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>ToDo App</title>-->
+    <link
+      rel="stylesheet"
+      href="https://todoapptahir.s3.amazonaws.com/index.css"
+    />
+  </head>
+  <body>
+    <div class="Title">
+      <h1>Track your days!</h1>
+    </div>
+    <div id="app">
+      <div class="column">
+        <div class="input-container">
+          <input type="text" id="new-todo" placeholder="Add a new ToDo" />
+          <button onclick="addTodo()">Add</button>
+        </div>
+        <div class="input-container">
+          <input type="text" id="todo-id" placeholder="Enter ToDo ID" />
+          <button onclick="getTodo()">Get ToDo</button>
+        </div>
+        <div class="todo-details">
+          <p><strong>ID:</strong> <span id="todo-id-display"></span></p>
+          <p id="todo-name">
+            <strong>Name:</strong> <span id="todo-name-display"></span>
+          </p>
+          <p id="todo-description">
+            <strong>Description:</strong>
+            <span id="todo-description-display"></span>
+          </p>
+          <p>
+            <strong>Status:</strong> <span id="todo-status-display"></span>
+            <button
+              id="update-status-button"
+              class="hidden"
+              onclick="updateStatus()"
+            >
+              Update Status
+            </button>
+          </p>
+        </div>
+        <button onclick="hideAllTodos()">Hide Todos</button>
+        <button onclick="showAllTodos()">Show All Todos</button>
+      </div>
+      <div class="column">
+        <table id="todo-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Status</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="todo-list"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://todoapptahir.s3.amazonaws.com/script.js"></script>
+  </body>
+</html>
