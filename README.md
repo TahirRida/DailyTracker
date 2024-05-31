@@ -2,6 +2,8 @@
 
 ## Description
 This is a simple To-Do application built using serverless architecture with AWS services. The application allows users to create, view, update, and delete tasks. It features a serverless backend using AWS Lambda functions, DynamoDB for data storage, and API Gateway to handle RESTful API requests. The front-end is hosted on Amazon S3.
+## Technologies Used
+Access the application using the [link](http://todoapptahir.s3-website-us-east-1.amazonaws.com/)
 
 ## Architecture
 The application follows a serverless architecture pattern:
@@ -36,7 +38,7 @@ The application follows a serverless architecture pattern:
 - Amazon S3
 
 ## Author
-[Your Name]
+TAHIR Rida
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
