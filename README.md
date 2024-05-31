@@ -15,10 +15,10 @@ The application follows a serverless architecture pattern:
 ![Home Page](main.png)
 
 ### Adding a Task:
-![Adding a Task](2 (4).png)
+![Adding a Task](Add.png)
 
 ### Viewing Tasks:
-![Viewing Tasks](3 (3).png)
+![Viewing Tasks](Consult.png)
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
